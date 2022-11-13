@@ -42,18 +42,13 @@ class MyApp extends StatelessWidget {
               ],
             ),
             SizedBox(height: 180),
-            Container(
-              width: 45,
-              alignment: Alignment.center,
-              padding: EdgeInsets.symmetric(vertical: 10),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.all(Radius.circular(3)),
-                color: Colors.white),
-              child: Text("+57", style: TextStyle(color: Color.fromARGB(255, 211, 10, 151)),),
-            )
+            Custom_container_pais(),
+            TextField()
           ],
         ),
       ),
     );
   }
 }
+
+
