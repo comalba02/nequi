@@ -42,13 +42,40 @@ class MyApp extends StatelessWidget {
               ],
             ),
             SizedBox(height: 180),
-            Custom_container_pais(),
-            TextField()
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Custom_container_pais(),
+                SizedBox(width: 20.0),
+                Container(
+                  width: 250,
+                  height: 39,
+                  // padding: EdgeInsets.symmetric(vertical: 10),
+                  decoration: BoxDecoration(
+                      borderRadius: BorderRadius.all(Radius.circular(3)),
+                      color: Colors.white),
+                  child: Padding(
+                      padding:
+                          const EdgeInsets.only(top: 12, left: 10, right: 10),
+                      child: TextFormField(
+                        maxLength: 10,
+                        keyboardType: TextInputType.number,
+                        style: TextStyle(
+                            color: Color.fromARGB(255, 211, 10, 151),
+                            letterSpacing: 1),
+                        cursorColor: Color.fromARGB(255, 211, 10, 151),
+                        decoration: InputDecoration(
+                            isCollapsed: true,
+                            hintText: "Numero de celular",
+                            counter: Offstage(),
+                            border: InputBorder.none),
+                      )),
+                )
+              ],
+            )
           ],
         ),
       ),
     );
   }
 }
-
-
