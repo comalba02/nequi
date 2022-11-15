@@ -2,9 +2,8 @@ import 'package:flutter/material.dart';
 import '../widgets/widgets.dart';
 
 class loginScreen extends StatelessWidget {
-   
   const loginScreen({Key? key}) : super(key: key);
-  
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -15,7 +14,8 @@ class loginScreen extends StatelessWidget {
         body: Container(
           padding: EdgeInsets.all(0),
           decoration: BoxDecoration(
-              image: DecorationImage(image: AssetImage("assets/fondo.png"), fit: BoxFit.cover)),
+              image: DecorationImage(
+                  image: AssetImage("assets/fondo.png"), fit: BoxFit.cover)),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.center,

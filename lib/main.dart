@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nequi/screens/screens.dart';
-import 'package:nequi/widgets/widgets.dart';
+import 'package:nequi/router/app_routes.dart';
 
 void main() => runApp(const MyApp());
 
@@ -12,7 +11,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Material App',
-      home: loginScreen(),
+      initialRoute: AppRoutes.inicial,
+      routes: AppRoutes.routes,
     );
   }
 }
