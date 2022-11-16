@@ -6,10 +6,7 @@ class loginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Material App',
-      home: Scaffold(
+    return Scaffold(
         backgroundColor: Color(0xFF200049),
         body: Container(
           padding: EdgeInsets.all(0),
@@ -58,7 +55,9 @@ class loginScreen extends StatelessWidget {
                 width: 315,
                 height: 40,
                 child: TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushReplacementNamed(context, 'home');
+                    },
                     style: TextButton.styleFrom(
                       backgroundColor: Color.fromARGB(255, 211, 10, 151),
                     ),
@@ -70,7 +69,6 @@ class loginScreen extends StatelessWidget {
             ],
           ),
         ),
-      ),
     );
   }
 }
