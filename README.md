@@ -1,16 +1,19 @@
-# nequi
+# Nequi
 
-A new Flutter project.
+Proyecto de practica flutter para crear un front-end similiar a nequi
 
-## Getting Started
+# Notas de desarrollo
 
-This project is a starting point for a Flutter application.
+Proyecto basado en SDK Flutter 3.0. 
 
-A few resources to get you started if this is your first Flutter project:
+# Capturas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Contacto
+
+Si esta interesado en contactarme puede realizarlo medainte mis redes sociales
+
+[Linkedin](https://www.linkedin.com/in/macoronadob)
+
+[Facebook](https://www.facebook.com/marcoalberto.coronadobaquero)
