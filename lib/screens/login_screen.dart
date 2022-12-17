@@ -47,14 +47,12 @@ class loginScreen extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Custom_container_pais(),
-                    SizedBox(width: 20.0),
-                    custom_container_celular(),
+                    Custom_container_input(),
                   ],
                 ),
-                SizedBox(height: 20.0),
+                SizedBox(height: 15.0),
                 SizedBox(
-                  width: 315,
+                  width: 290,
                   height: 40,
                   child: TextButton(
                       onPressed: () {
