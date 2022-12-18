@@ -13,10 +13,10 @@ class Custom_container_input extends StatelessWidget {
       padding: EdgeInsets.symmetric(vertical: 10, horizontal: 5),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(3)),
-        color: Colors.white),
+        color: Color.fromARGB(180, 255, 255, 255)),
       child: Row(
         children: [
-          Text("+57", style: TextStyle(color: Color.fromARGB(255, 211, 10, 151)),),
+          Text(" +57", style: TextStyle(color: Color.fromARGB(255, 211, 10, 151)),),
           custom_container_celular()
         ],
       ),

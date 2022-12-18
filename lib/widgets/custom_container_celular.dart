@@ -11,7 +11,7 @@ class custom_container_celular extends StatelessWidget {
       // padding: EdgeInsets.symmetric(vertical: 10),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.all(Radius.circular(3)),
-          color: Colors.white),
+          color: Color.fromARGB(0, 255, 255, 255)),
       child: Padding(
           padding: const EdgeInsets.only(top: 12, left: 10, right: 10),
           child: TextFormField(
