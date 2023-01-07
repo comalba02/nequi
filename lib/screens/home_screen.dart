@@ -8,6 +8,14 @@ class homeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      floatingActionButton: Padding(
+        padding: const EdgeInsets.only(right: 6.0, bottom: 10.0),
+        child: FloatingActionButton(
+          onPressed: (){},
+          backgroundColor: Color.fromARGB(255, 211, 10, 151),
+          child: Icon(Icons.attach_money),
+        ),
+      ),
       body: Stack(
         children: [
           Transform.rotate(
